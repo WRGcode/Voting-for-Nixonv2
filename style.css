@@ -1,0 +1,74 @@
+*, *::after *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+background-color: purple;
+border: solid 2px rgb(201, 0, 201);
+transition: all 160s;
+}
+/* body{
+    background-image: url(7724168-wall-eyes-dark-purple-by-paisleyhansen.jpg);
+    opacity: 0.1;
+} */
+
+#candidate1{
+    height: 90%;
+    width: 49%;
+    border: solid rgb(207, 0, 0) 2px;
+    position: absolute;
+    top: 5%;
+    background-color: rgb(134, 0, 0);
+    color: rgba(255, 255, 255, 0.89);
+}
+
+#candidate2{
+    height: 90%;
+    width: 49%;
+    border: solid rgb(0, 89, 255) 2px;
+    position: absolute;
+    left: 50.2%;
+    top: 5%;
+    background-color: rgb(0, 0, 204);
+    color: rgba(255, 255, 255, 0.89);
+    
+}
+
+div{
+    text-align: center;
+    /* background-image: url(7724168-wall-eyes-dark-purple-by-paisleyhansen.jpg);
+    opacity: 0.1; */
+}
+
+button{
+    border: gold solid 3px;
+    background-color: rgb(218, 165, 32);
+    color: white;
+    border-radius: 50px;
+    width: 40%;
+    height: 5%;
+    font-size: 20px;
+    transition: all .1s;
+}
+
+#secert{
+    color:rgb(30, 30, 205);
+}
+
+footer{
+    position: absolute;
+    left: 47%;
+    top: 96.5%;
+    
+}
+
+#red{
+    position: relative;
+    cursor: pointer;
+    
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+  }
+
